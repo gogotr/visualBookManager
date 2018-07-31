@@ -12,6 +12,7 @@
 		CB67F76D21108524003CE5C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB67F76B21108524003CE5C5 /* Main.storyboard */; };
 		CB67F76F2110852A003CE5C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB67F76E2110852A003CE5C5 /* Assets.xcassets */; };
 		CB67F7722110852A003CE5C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB67F7702110852A003CE5C5 /* LaunchScreen.storyboard */; };
+		CB67F77C21108D8F003CE5C5 /* BookManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB67F77B21108D8F003CE5C5 /* BookManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		CB67F76E2110852A003CE5C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB67F7712110852A003CE5C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CB67F7732110852A003CE5C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB67F77B21108D8F003CE5C5 /* BookManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BookManager.swift; path = ../../BookManager/BookManager/BookManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		CB67F76621108524003CE5C5 /* VisualBookManager */ = {
 			isa = PBXGroup;
 			children = (
+				CB67F77B21108D8F003CE5C5 /* BookManager.swift */,
 				CB67F76721108524003CE5C5 /* AppDelegate.swift */,
 				CB67F76921108524003CE5C5 /* ViewController.swift */,
 				CB67F76B21108524003CE5C5 /* Main.storyboard */,
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB67F77C21108D8F003CE5C5 /* BookManager.swift in Sources */,
 				CB67F76A21108524003CE5C5 /* ViewController.swift in Sources */,
 				CB67F76821108524003CE5C5 /* AppDelegate.swift in Sources */,
 			);
